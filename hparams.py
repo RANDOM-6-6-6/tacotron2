@@ -25,8 +25,8 @@ def create_hparams(hparams_string=None, verbose=False):
         # Data Parameters             #
         ################################
         load_mel_from_disk=False,
-        training_files='../Datasets/saltzvoice/saltztrain.txt',
-        validation_files='../Datasets/saltzvoice/saltzval.txt',
+        training_files='../tacotron2/datasets/train.txt',
+        validation_files='../tacotron2/datasets/val.txt',
         text_cleaners=['english_cleaners'],
         preprocessing='arpabet', # 'ipa', 'arpabet', None
         cmudict_path = "text/cmudict-0.7b",
