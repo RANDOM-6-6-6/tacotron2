@@ -3,8 +3,9 @@ tensorflow==1.15.2
 numpy==1.16.4
 inflect==0.3.1
 librosa==0.6.0
-scipy
+
 Unidecode==1.0.22
 pillow
 eng_to_ipa==0.0.2
 g2p-en==2.1.0
+scipy=1.0.0
